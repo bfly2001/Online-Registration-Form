@@ -1,0 +1,215 @@
+body {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0;
+ font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+h1 {
+ color: white;
+ background-color: #454e52;
+ width: 100%;
+ text-align: center;
+ margin: 0;
+}
+
+h2 {
+ text-align: center;
+ width: 90%;
+ margin-left: 15px;
+}
+
+.intro-text {
+ text-align: center;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
+main {
+
+}
+
+.textbox {
+height: 30px;
+margin-right: 0px;
+padding-left: 0px;
+border-left-width: 0px;
+padding-right: 0px;
+border-right-width: 0px;
+}
+
+.box {
+width: 4%;
+}
+
+label {
+width: 100%;
+margin-left: 15px;
+}
+
+input {
+ background-color: lightgray;
+ width: 90%;
+ margin-left: 15px;
+}
+
+select {
+ padding-right: 95px;
+ padding-left: 95px;
+ background-color: lightgray;
+ margin-left: 15px;
+ width: 90%;
+ height: 30px;
+}
+
+.select-news {
+ width: 95%;
+ margin-left: 15px;
+}
+
+.news-format {
+  width: 95%;
+  margin-left: 15px;
+}
+
+.other-topics {
+  width: 95%;
+  margin-left: 15px;
+}
+
+textarea {
+ background-color: lightgray;
+ width: 89%;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ margin-left: 15px;
+}
+
+.contact-information, .newsletter {
+ text-align: left;
+}
+
+.double-line {
+  width: 90%;
+  border-style: double;
+  border-top-width: 1px;
+  border-bottom-width: 5px
+}
+
+.solid-line {
+  width: 90%;
+  border-style: solid;
+
+}
+
+button {
+ width: 91%;
+ color: white;
+ background-color: teal;
+ border-radius: 5px;
+ border: none;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ margin-left: 15px;
+}
+
+.copyright {
+ text-align: center;
+ width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+.wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+hr {
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+br {
+ display: none;
+}
+
+.full-name {
+  margin-right: 57px;
+}
+
+.email {
+  margin-right: 86px;
+}
+
+.phone-number {
+  margin-right: 25px;
+}
+
+.street-address {
+  margin-left: 15px;
+  margin-right: 24px;
+}
+
+.city {
+  margin-right: 96px;
+}
+
+.state {
+  margin-right: 70px;
+}
+
+select {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.zip-code {
+  margin-right: 65px;
+}
+
+input {
+ margin-left: 25px;
+ margin-right: 150px;
+}
+
+.textbox {
+ width: 70%;
+ margin-left: 0px;
+ margin-bottom: 15px;
+}
+
+.box {
+  margin-right: 0px;
+}
+
+.intro-text {
+ text-align: center;
+ width: 100%;
+}
+
+.html-news {
+  margin-right: 300px;
+}
+
+.css-news {
+  margin-right: 300px;
+}
+
+.solid-line {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.html-format {
+margin-right: 350px;
+}
+}
+
+}
