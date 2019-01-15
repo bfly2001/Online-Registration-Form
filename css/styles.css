@@ -9,6 +9,7 @@ header {
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
+ width: 100%;
 }
 
 h1 {
@@ -31,8 +32,13 @@ h2 {
  margin-right: 15px;
 }
 
-main {
+fieldset {
+  border: none;
+}
 
+legend {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .textbox {
@@ -42,10 +48,23 @@ padding-left: 0px;
 border-left-width: 0px;
 padding-right: 0px;
 border-right-width: 0px;
+text-align: right;
+}
+
+.textbox:focus {
+  outline: 3px solid teal;
+}
+
+select:focus {
+  outline: 3px solid teal;
 }
 
 .box {
 width: 4%;
+}
+
+.box:focus {
+  outline: 3px solid teal;
 }
 
 label {
@@ -89,6 +108,10 @@ textarea {
  padding-bottom: 20px;
  padding-top: 20px;
  margin-left: 15px;
+}
+
+textarea:focus {
+  outline: 3px solid teal;
 }
 
 .contact-information, .newsletter {

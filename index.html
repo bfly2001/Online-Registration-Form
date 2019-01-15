@@ -18,16 +18,17 @@
        <hr class="double-line">
     <main>
         <div class="wrapper">
-        <h2 class="contact-information">Contact Information</h2>
         <form>
+          <fieldset>
+            <legend>Contact Information</legend>
             <label class="full-name">Full Name</label><br>
-            <input class="textbox" type="text" name="fullname" required="required">
+            <input class="textbox" type="text" name="fullname" placeholder="required">
             <br>
             <label class="email">Email</label><br>
-            <input class="textbox" type="email" name="email" required="required">
+            <input class="textbox" type="email" name="email" placeholder="required">
             <br>
             <label class="phone-number">Phone Number</label><br>
-            <input class="textbox" type="text" name="phonenumber">
+            <input class="textbox" type="tel" name="phonenumber">
             <br>
             <label class="street-address">Street Address</label><br>
             <input class="textbox" type="text" name="streetaddress">
@@ -95,9 +96,12 @@
             <br>
             <label class="zip-code">Zip Code</label><br>
             <input class="textbox" type="text" name="zipcode">
-            <h2 class="newsletter">Newsletter</h2>
+            </fieldset>
+            <hr class="solid-line">
+            <fieldset>
+              <legend>Newsletter</legend
             <p class="select-news">Select the newsletters you would like to receive.</p>
-            <input class="box" type="checkbox" name="htmlnews" checked>
+            <input class="box" type="checkbox" name="htmlnews" checked="checked">
             <label class="html-news">HTML News</label><br>
             <br>
             <input class="box" type="checkbox" name="cssnews">
@@ -105,15 +109,15 @@
             <br>
             <input class="box" type="checkbox" name="javascriptnews">
             <label class="javascript-news">JavaScript News</label><br>
-            <hr class="solid-line">
             <p class="news-format">Newsletter format</p>
-            <input class="box" type="checkbox" name="html" checked>
+            <input class="box" type="radio" name="html" checked="checked">
             <label class="html-format">HTML</label><br>
             <br>
-            <input class="box" type="checkbox" name="plaintext">
+            <input class="box" type="radio" name="plaintext">
             <label>Plain Text</label><br>
             <p class="other-topics">Other topics you'd like to hear about</p>
             <textarea name="comment" form="usrform"></textarea>
+            </fieldset>
             <button type="submit" form="form1" value="Submit">Submit</button>
             <p class="copyright">Copyright The Code Review</p>
         </form>
