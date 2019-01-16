@@ -21,22 +21,22 @@
         <form>
           <fieldset>
             <legend>Contact Information</legend>
-            <label class="full-name">Full Name</label><br>
+            <label for="fullname" class="full-name">Full Name</label><br>
             <input class="textbox" type="text" name="fullname" placeholder="required">
             <br>
-            <label class="email">Email</label><br>
+            <label for="email" class="email">Email</label><br>
             <input class="textbox" type="email" name="email" placeholder="required">
             <br>
-            <label class="phone-number">Phone Number</label><br>
+            <label for="phonenumber" class="phone-number">Phone Number</label><br>
             <input class="textbox" type="tel" name="phonenumber">
             <br>
-            <label class="street-address">Street Address</label><br>
+            <label for="streetaddress" class="street-address">Street Address</label><br>
             <input class="textbox" type="text" name="streetaddress">
             <br>
-            <label class="city">City</label><br>
+            <label for="city" class="city">City</label><br>
             <input class="textbox" type="text" name="city">
             <br>
-            <label class="state">State</label><br>
+            <label for="" class="state">State</label><br>
             <select name="Choose State">
              <option value="Choose State">Choose State</option>
              <option value="Alabama">Alabama</option>
@@ -94,7 +94,7 @@
              <option value="District of Columbia">District of Columbia</option>
             </select>
             <br>
-            <label class="zip-code">Zip Code</label><br>
+            <label for="zipcode" class="zip-code">Zip Code</label><br>
             <input class="textbox" type="text" name="zipcode">
             </fieldset>
             <hr class="solid-line">
@@ -102,19 +102,19 @@
               <legend>Newsletter</legend
             <p class="select-news">Select the newsletters you would like to receive.</p>
             <input class="box" type="checkbox" name="htmlnews" checked="checked">
-            <label class="html-news">HTML News</label><br>
+            <label for="htmlnews" class="html-news">HTML News</label><br>
             <br>
             <input class="box" type="checkbox" name="cssnews">
-            <label class="css-news">CSS News</label><br>
+            <label for="cssnews" class="css-news">CSS News</label><br>
             <br>
             <input class="box" type="checkbox" name="javascriptnews">
-            <label class="javascript-news">JavaScript News</label><br>
+            <label for="javascriptnews" class="javascript-news">JavaScript News</label><br>
             <p class="news-format">Newsletter format</p>
             <input class="box" type="radio" name="html" checked="checked">
-            <label class="html-format">HTML</label><br>
+            <label for="html" class="html-format">HTML</label><br>
             <br>
             <input class="box" type="radio" name="plaintext">
-            <label>Plain Text</label><br>
+            <label for="plaintext">Plain Text</label><br>
             <p class="other-topics">Other topics you'd like to hear about</p>
             <textarea name="comment" form="usrform"></textarea>
             </fieldset>
