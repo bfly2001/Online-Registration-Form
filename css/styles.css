@@ -138,14 +138,14 @@ textarea:focus {
 }
 
 button {
- width: 91%;
+ width: 84%;
  color: white;
  background-color: teal;
  border-radius: 5px;
  border: none;
  padding-top: 15px;
  padding-bottom: 15px;
- margin-left: 15px;
+ margin-left: 28px;
 }
 
 .copyright {
@@ -199,7 +199,7 @@ legend {
 }
 
 select {
-  width: 70%;
+  width: 72.5%;
   margin-bottom: 15px;
 }
 
@@ -256,6 +256,11 @@ input {
 margin-right: 335px;
 margin-left: 15px;
 }
+
+button {
+  width: 85.5%;
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -280,4 +285,18 @@ select {
 .html-format {
   margin-right: 600px;
 }
+
+button {
+  width: 86.5%;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+  .textbox {
+    margin-right: 200px;
+  }
+
+  select {
+    margin-right: 200px;
+  }
 }
