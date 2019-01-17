@@ -39,6 +39,7 @@ fieldset {
 legend {
   font-size: 25px;
   font-weight: bold;
+  margin-left: 7px;
 }
 
 .textbox {
@@ -73,20 +74,20 @@ width: 4%;
 
 label {
 width: 100%;
-margin-left: 15px;
+margin-left: 10px;
 }
 
 input {
  background-color: lightgray;
  width: 90%;
- margin-left: 15px;
+ margin-left: 10px;
 }
 
 select {
  padding-right: 95px;
  padding-left: 0px;
  background-color: lightgray;
- margin-left: 15px;
+ margin-left: 10px;
  width: 93%;
  height: 30px;
  text-align: left;
@@ -95,17 +96,17 @@ select {
 
 .select-news {
  width: 95%;
- margin-left: 15px;
+ margin-left: 10px;
 }
 
 .news-format {
   width: 95%;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .other-topics {
   width: 95%;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 textarea {
@@ -113,7 +114,7 @@ textarea {
  width: 89%;
  padding-bottom: 20px;
  padding-top: 20px;
- margin-left: 15px;
+ margin-left: 10px;
 }
 
 textarea:focus {
@@ -128,13 +129,14 @@ textarea:focus {
   width: 90%;
   border-style: double;
   border-top-width: 1px;
-  border-bottom-width: 5px
+  border-bottom-width: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .solid-line {
-  width: 90%;
+  width: 85%;
   border-style: solid;
-
 }
 
 button {
@@ -145,7 +147,7 @@ button {
  border: none;
  padding-top: 15px;
  padding-bottom: 15px;
- margin-left: 28px;
+ margin-left: 23px;
 }
 
 .copyright {
@@ -173,28 +175,28 @@ legend {
   margin-left: 12px;
 }
 
-.full-name {
+#full-name {
   margin-right: 30px;
 }
 
-.email {
+#email {
   margin-right: 60px;
 }
 
-.phone-number {
+#phone-number {
   margin-right: 0px;
 }
 
-.street-address {
+#street-address {
   margin-left: 15px;
   margin-right: 0px;
 }
 
-.city {
+#city {
   margin-right: 70px;
 }
 
-.state {
+#state {
   margin-right: 43px;
 }
 
@@ -203,7 +205,7 @@ select {
   margin-bottom: 15px;
 }
 
-.zip-code {
+#zip-code {
   margin-right: 38px;
 }
 
