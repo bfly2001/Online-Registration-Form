@@ -10,7 +10,7 @@
   <body>
    <header>
        <h1>The Code Review</h1>
-   <div class="wrapper">
+   <div class="intro-wrapper">
        <h2>Signup for our Newsletter</h2>
        <p class="intro-text"> Get the latest news on how your code is doing right in your inbox.</p>
        </div>
@@ -18,17 +18,17 @@
        <hr class="double-line">
     <main>
         <div class="wrapper">
-        <form>
+        <form id="usrform">
           <fieldset>
             <legend>Contact Information</legend>
             <label for="fullname" id="full-name">Full Name</label><br>
-            <input class="textbox" type="text" name="fullname" placeholder="required">
+            <input class="textbox" type="text" name="fullname" placeholder="required" required>
             <br>
             <label for="email" id="email">Email</label><br>
-            <input class="textbox" type="email" name="email" placeholder="required">
+            <input class="textbox" type="email" name="email" placeholder="required" required>
             <br>
             <label for="phonenumber" id="phone-number">Phone Number</label><br>
-            <input class="textbox" type="tel" name="phonenumber">
+            <input class="textbox" type="tel" name="phonenumber" placeholder="(XXX)XXX-XXXX">
             <br>
             <label for="streetaddress" id="street-address">Street Address</label><br>
             <input class="textbox" type="text" name="streetaddress">
@@ -95,30 +95,30 @@
             </select>
             <br>
             <label for="zipcode" id="zip-code">Zip Code</label><br>
-            <input class="textbox" type="text" name="zipcode">
+            <input class="textbox" type="text" name="zipcode" placeholder="XXXXX">
             </fieldset>
             <hr class="solid-line">
             <fieldset>
               <legend>Newsletter</legend>
             <p class="select-news">Select the newsletters you would like to receive.</p>
-            <input class="box" type="checkbox" name="htmlnews" checked="checked">
+            <input class="box" type="checkbox" name="newsletter" value="htmlnews" checked="checked">
             <label for="htmlnews" class="html-news">HTML News</label><br>
             <br>
-            <input class="box" type="checkbox" name="cssnews">
+            <input class="box" type="checkbox" name="newsletter" value="cssnews">
             <label for="cssnews" class="css-news">CSS News</label><br>
             <br>
-            <input class="box" type="checkbox" name="javascriptnews">
+            <input class="box" type="checkbox" name="newsletter" value="javascriptnews">
             <label for="javascriptnews" class="javascript-news">JavaScript News</label><br>
             <p class="news-format">Newsletter format</p>
-            <input class="box" type="radio" name="html" checked="checked">
+            <input class="box" type="radio" name="format" value="html" checked="checked">
             <label for="html" class="html-format">HTML</label><br>
             <br>
-            <input class="box" type="radio" name="plaintext">
+            <input class="box" type="radio" name="format" value="plaintext">
             <label for="plaintext">Plain Text</label><br>
             <p class="other-topics">Other topics you'd like to hear about</p>
-            <textarea name="comment" form="usrform"></textarea>
+            <textarea name="comment" form="usrform" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ..."></textarea>
             </fieldset>
-            <button type="submit" form="form1" value="Submit">Submit</button>
+            <button type="submit" form="usrform" value="Submit">Submit</button>
             <p class="copyright">Copyright The Code Review</p>
         </form>
         </div>

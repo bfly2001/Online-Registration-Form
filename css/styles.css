@@ -3,6 +3,7 @@ body {
  flex-wrap: wrap;
  margin: 0;
  font-family: 'Rajdhani', sans-serif;
+ background-color: silver;
 }
 
 header {
@@ -54,6 +55,8 @@ text-align: right;
 
 .textbox:focus {
   outline: 3px solid teal;
+  background-color: teal;
+  transition: background-color 1.5s ease-in;
 }
 
 select:focus {
@@ -157,9 +160,19 @@ button {
 
 @media only screen and (min-width: 768px) {
 
+.intro-text {
+  font-size: smaller;
+  margin-left: 0;
+}
+
 .wrapper {
   margin-left: 150px;
   margin-right: 150px;
+}
+
+.double-line {
+  margin-left: 175px;
+  width: 55%;
 }
 
 hr {
@@ -171,33 +184,36 @@ br {
  display: none;
 }
 
+fieldset {
+  margin-right: 10px;
+}
+
 legend {
   margin-left: 12px;
 }
 
 #full-name {
-  margin-right: 30px;
+  margin-right: 41px;
 }
 
 #email {
-  margin-right: 60px;
-}
-
-#phone-number {
-  margin-right: 0px;
-}
-
-#street-address {
-  margin-left: 15px;
-  margin-right: 0px;
-}
-
-#city {
   margin-right: 70px;
 }
 
+#phone-number {
+  margin-right: 10px;
+}
+
+#street-address {
+  margin-right: 8px;
+}
+
+#city {
+  margin-right: 79px;
+}
+
 #state {
-  margin-right: 43px;
+  margin-right: 58px;
 }
 
 select {
@@ -206,7 +222,7 @@ select {
 }
 
 #zip-code {
-  margin-right: 38px;
+  margin-right: 48px;
 }
 
 input {
@@ -244,6 +260,7 @@ input {
 
 .solid-line {
   margin-left: 25px;
+  width: 90%;
 }
 
 .news-format {
@@ -260,12 +277,29 @@ margin-left: 15px;
 }
 
 button {
-  width: 85.5%;
+  width: 90.5%;
 }
 
+textarea {
+  width: 96.5%;
+}
 }
 
 @media only screen and (min-width: 1024px) {
+
+.wrapper {
+  margin-left: 200px;
+}
+
+.double-line {
+  width: 56%;
+  margin-left: 224px;
+}
+
+
+.solid-line {
+  width: 83%;
+}
 
 .textbox {
   margin-right: 60px;
@@ -277,28 +311,50 @@ select {
 }
 
 .html-news {
-  margin-right: 550px;
+  margin-right: 500px;
 }
 
 .css-news {
-  margin-right: 550px;
+  margin-right: 500px;
 }
 
 .html-format {
-  margin-right: 600px;
+  margin-right: 520px;
+}
+
+textarea {
+  width: 87%;
 }
 
 button {
-  width: 86.5%;
+  width: 83.5%;
 }
 }
 
 @media only screen and (min-width: 1440px) {
+ .wrapper {
+   margin-left: 400px;
+ }
+
   .textbox {
-    margin-right: 200px;
+    margin-right: 270px;
+    width: 50%;
   }
 
   select {
-    margin-right: 200px;
+    margin-right: 270px;
+    width: 51.5%;
+  }
+
+  .html-news {
+    margin-right: 700px;
+  }
+
+  .css-news {
+    margin-right: 700px;
+  }
+
+  .html-format {
+    margin-right: 720px;
   }
 }
