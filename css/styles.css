@@ -258,4 +258,26 @@ margin-left: 15px;
 }
 }
 
+@media only screen and (min-width: 1024px) {
+
+.textbox {
+  margin-right: 60px;
+}
+
+select {
+  margin-right: 50px;
+  width: 71.5%;
+}
+
+.html-news {
+  margin-right: 550px;
+}
+
+.css-news {
+  margin-right: 550px;
+}
+
+.html-format {
+  margin-right: 600px;
+}
 }
