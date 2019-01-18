@@ -157,6 +157,7 @@ button {
  text-align: center;
  width: 100%;
 }
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -166,8 +167,11 @@ button {
 }
 
 .wrapper {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 215px;
+}
+
+main {
+  margin-left: 215px;
 }
 
 .double-line {
@@ -296,7 +300,6 @@ textarea {
   margin-left: 224px;
 }
 
-
 .solid-line {
   width: 83%;
 }
@@ -332,6 +335,11 @@ button {
 }
 
 @media only screen and (min-width: 1440px) {
+ .double-line {
+  width: 38%;
+  margin-left: 425px;
+ }
+
  .wrapper {
    margin-left: 400px;
  }
@@ -346,15 +354,31 @@ button {
     width: 51.5%;
   }
 
+  .solid-line {
+    width: 61%;
+}
+
   .html-news {
-    margin-right: 700px;
+    margin-right: 0px;
   }
 
   .css-news {
-    margin-right: 700px;
+    margin-right: 0px;
   }
 
   .html-format {
-    margin-right: 720px;
+    margin-right: 25px;
+  }
+
+  button {
+    width: 61.5%;
+  }
+
+  textarea {
+    width: 63%;
+  }
+
+  .copyright {
+    width: 66%;
   }
 }
