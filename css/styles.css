@@ -155,10 +155,25 @@ button {
  text-align: center;
  width: 100%;
 }
-}
 
 @media (min-width: 768px) {
   .double-line {
     width: 55.5%;
+  }
+
+  main {
+    margin-left: 147px;
+    width: 100%;
+    margin-right: 132px;
+  }
+
+  button {
+    width: 85.5%;
+  }
+
+  .solid-line {
+    width: 87%;
+    margin-left: 22px;
+    margin-right: 0px;
   }
 }
