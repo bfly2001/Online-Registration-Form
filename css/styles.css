@@ -184,36 +184,32 @@ br {
  display: none;
 }
 
-fieldset {
-  margin-right: 10px;
-}
-
 legend {
   margin-left: 7px;
 }
 
 #full-name {
-  margin-right: 41px;
+  margin-left: 40px;
 }
 
 #email {
-  margin-right: 70px;
+  margin-left: 70px;
 }
 
 #phone-number {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #street-address {
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 #city {
-  margin-right: 79px;
+  margin-left: 79px;
 }
 
 #state {
-  margin-right: 58px;
+  margin-left: 67px;
 }
 
 select {
@@ -222,7 +218,7 @@ select {
 }
 
 #zip-code {
-  margin-right: 48px;
+  margin-left: 48px;
 }
 
 input {
@@ -232,7 +228,6 @@ input {
 
 .textbox {
  width: 70%;
- margin-left: 0px;
  margin-bottom: 15px;
 }
 
@@ -255,7 +250,7 @@ input {
 }
 
 .css-news {
-  margin-right: 300px;
+  margin-right: 310px;
 }
 
 .solid-line {

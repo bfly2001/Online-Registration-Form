@@ -21,23 +21,23 @@
         <form id="usrform">
           <fieldset>
             <legend>Contact Information</legend>
-            <label for="fullname" id="full-name">Full Name</label><br>
-            <input class="textbox" type="text" name="fullname" placeholder="required" required>
+            <label for="full-name">Full Name</label><br>
+            <input id="full-name" class="textbox" type="text" name="full-name" placeholder="required" required>
             <br>
-            <label for="email" id="email">Email</label><br>
-            <input class="textbox" type="email" name="email" placeholder="required" required>
+            <label for="email">Email</label><br>
+            <input id="email" class="textbox" type="email" name="email" placeholder="required" required>
             <br>
-            <label for="phonenumber" id="phone-number">Phone Number</label><br>
-            <input class="textbox" type="tel" name="phonenumber" placeholder="(XXX)XXX-XXXX">
+            <label for="phone-number">Phone Number</label><br>
+            <input id="phone-number" class="textbox" type="tel" name="phone-number" placeholder="(XXX)XXX-XXXX">
             <br>
-            <label for="streetaddress" id="street-address">Street Address</label><br>
-            <input class="textbox" type="text" name="streetaddress">
+            <label for="street-address">Street Address</label><br>
+            <input id="street-address" class="textbox" type="text" name="street-address">
             <br>
-            <label for="city" id="city">City</label><br>
-            <input class="textbox" type="text" name="city">
+            <label for="city">City</label><br>
+            <input id="city" class="textbox" type="text" name="city">
             <br>
-            <label for="" id="state">State</label><br>
-            <select name="Choose State">
+            <label for="state">State</label><br>
+            <select id="state" name="Choose State">
              <option value="Choose State">Choose State</option>
              <option value="Alabama">Alabama</option>
              <option value="Alaska">Alaska</option>
@@ -94,26 +94,26 @@
              <option value="District of Columbia">District of Columbia</option>
             </select>
             <br>
-            <label for="zipcode" id="zip-code">Zip Code</label><br>
-            <input class="textbox" type="text" name="zipcode" placeholder="XXXXX">
+            <label for="zip-code">Zip Code</label><br>
+            <input id="zip-code" class="textbox" type="text" name="zip-code" placeholder="XXXXX">
             </fieldset>
             <hr class="solid-line">
             <fieldset>
               <legend>Newsletter</legend>
             <p class="select-news">Select the newsletters you would like to receive.</p>
-            <input class="box" type="checkbox" name="newsletter" value="htmlnews" checked="checked">
+            <input id="htmlnews" class="box" type="checkbox" name="newsletter" value="htmlnews" checked="checked">
             <label for="htmlnews" class="html-news">HTML News</label><br>
             <br>
-            <input class="box" type="checkbox" name="newsletter" value="cssnews">
+            <input id="cssnews" class="box" type="checkbox" name="newsletter" value="cssnews">
             <label for="cssnews" class="css-news">CSS News</label><br>
             <br>
-            <input class="box" type="checkbox" name="newsletter" value="javascriptnews">
+            <input id="javascriptnews" class="box" type="checkbox" name="newsletter" value="javascriptnews">
             <label for="javascriptnews" class="javascript-news">JavaScript News</label><br>
             <p class="news-format">Newsletter format</p>
-            <input class="box" type="radio" name="format" value="html" checked="checked">
+            <input id="html" class="box" type="radio" name="format" value="html" checked="checked">
             <label for="html" class="html-format">HTML</label><br>
             <br>
-            <input class="box" type="radio" name="format" value="plaintext">
+            <input id="plaintext" class="box" type="radio" name="format" value="plaintext">
             <label for="plaintext">Plain Text</label><br>
             <p class="other-topics">Other topics you'd like to hear about</p>
             <textarea name="comment" form="usrform" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ..."></textarea>
