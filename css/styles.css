@@ -92,9 +92,13 @@ select {
  background-color: lightgray;
  margin-left: 10px;
  width: 93%;
- height: 30px;
+ height: 35px;
  text-align: left;
  border-radius: 2px;
+}
+
+#zip-code {
+  width: 45%;
 }
 
 .select-news {
@@ -161,7 +165,7 @@ button {
 @media only screen and (min-width: 768px) {
 
 .intro-text {
-  font-size: smaller;
+  font-size: 15px;
   margin-left: 0;
 }
 
@@ -172,7 +176,7 @@ button {
 
 .double-line {
   margin-left: 175px;
-  width: 55%;
+  width: 55.5%;
 }
 
 hr {
@@ -219,6 +223,7 @@ select {
 
 #zip-code {
   margin-left: 48px;
+  width: 25%;
 }
 
 input {
@@ -254,8 +259,8 @@ input {
 }
 
 .solid-line {
-  margin-left: 25px;
-  width: 90%;
+  margin-left: 24px;
+  width: 91%;
 }
 
 .news-format {
@@ -275,7 +280,7 @@ button {
 }
 
 textarea {
-  width: 96.5%;
+  width: 94.5%;
 }
 }
 
@@ -292,7 +297,7 @@ textarea {
 
 
 .solid-line {
-  width: 83%;
+  width: 84.5%;
 }
 
 .textbox {
@@ -301,7 +306,7 @@ textarea {
 
 select {
   margin-right: 50px;
-  width: 71.5%;
+  width: 71.75%;
 }
 
 .html-news {
@@ -313,7 +318,7 @@ select {
 }
 
 .html-format {
-  margin-right: 520px;
+  margin-right: 530px;
 }
 
 textarea {
@@ -321,8 +326,13 @@ textarea {
 }
 
 button {
-  width: 83.5%;
+  width: 84.5%;
 }
+
+.copyright {
+  width: 93%;
+}
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -363,12 +373,12 @@ button {
   }
 
   .html-format {
-    margin-right: 720px;
+    margin-right: 730px;
     margin-left: 10px;
   }
 
   textarea {
-    width: 63.5%;
+    width: 63%;
   }
 
   button {
