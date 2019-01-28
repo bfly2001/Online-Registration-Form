@@ -4,6 +4,7 @@ body {
  margin: 0;
  font-family: 'Rajdhani', sans-serif;
  background-color: silver;
+ width: 100%;
 }
 
 header {
@@ -35,14 +36,33 @@ h2 {
  margin-top: 0px;
 }
 
+main {
+  width: 100%;
+}
+
+.wrapper {
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
 fieldset {
   border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
 }
 
 legend {
   font-size: 25px;
   font-weight: bold;
-  margin-left: 7px;
+  padding-left: 0px;
 }
 
 .textbox {
@@ -79,21 +99,18 @@ width: 4%;
 
 label {
 width: 100%;
-margin-left: 10px;
 }
 
 input {
  background-color: lightgray;
- width: 90%;
- margin-left: 10px;
+ width: 84%;
 }
 
 select {
  padding-right: 95px;
  padding-left: 0px;
  background-color: lightgray;
- margin-left: 10px;
- width: 93%;
+ width: 87%;
  height: 35px;
  text-align: left;
  border-radius: 2px;
@@ -105,18 +122,15 @@ select {
 
 .select-news {
  width: 95%;
- margin-left: 10px;
  margin-top: 5px;
 }
 
 .news-format {
   width: 95%;
-  margin-left: 10px;
 }
 
 .other-topics {
   width: 95%;
-  margin-left: 10px;
   display: block;
   margin-top: 15px;
   margin-bottom: 7px;
@@ -127,7 +141,6 @@ textarea {
  width: 89%;
  padding-bottom: 20px;
  padding-top: 20px;
- margin-left: 10px;
 }
 
 textarea:focus {
@@ -149,20 +162,21 @@ textarea:focus {
 }
 
 .solid-line {
-  width: 85%;
+  width: 86%;
   border-style: solid;
   margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 button {
- width: 84%;
+ width: 91%;
  color: white;
  background-color: teal;
  border-radius: 5px;
  border: none;
  padding-top: 15px;
  padding-bottom: 15px;
- margin-left: 23px;
 }
 
 .copyright {
