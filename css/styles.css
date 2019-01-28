@@ -25,12 +25,14 @@ h2 {
  text-align: center;
  width: 90%;
  margin-left: 15px;
+ margin-bottom: 0px;
 }
 
 .intro-text {
  text-align: center;
  margin-left: 15px;
  margin-right: 15px;
+ margin-top: 0px;
 }
 
 fieldset {
@@ -104,6 +106,7 @@ select {
 .select-news {
  width: 95%;
  margin-left: 10px;
+ margin-top: 5px;
 }
 
 .news-format {
@@ -114,6 +117,9 @@ select {
 .other-topics {
   width: 95%;
   margin-left: 10px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 7px;
 }
 
 textarea {
@@ -139,11 +145,13 @@ textarea:focus {
   border-bottom-width: 5px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .solid-line {
   width: 85%;
   border-style: solid;
+  margin-bottom: 15px;
 }
 
 button {
@@ -160,6 +168,7 @@ button {
 .copyright {
  text-align: center;
  width: 100%;
+ font-style: italic;
 }
 
 @media only screen and (min-width: 768px) {
@@ -177,6 +186,7 @@ button {
 .double-line {
   margin-left: 175px;
   width: 55.5%;
+  margin-bottom: 25px;
 }
 
 hr {
@@ -190,39 +200,40 @@ br {
 
 legend {
   margin-left: 7px;
+  font-size: 20px;
 }
 
 #full-name {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #email {
-  margin-left: 70px;
+  margin-left: 90px;
 }
 
 #phone-number {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 #street-address {
-  margin-left: 8px;
+  margin-left: 28px;
 }
 
 #city {
-  margin-left: 79px;
+  margin-left: 99px;
 }
 
 #state {
-  margin-left: 67px;
+  margin-left: 87px;
 }
 
 select {
-  width: 72.5%;
+  width: 68%;
   margin-bottom: 15px;
 }
 
 #zip-code {
-  margin-left: 48px;
+  margin-left: 68px;
   width: 25%;
 }
 
@@ -232,7 +243,7 @@ input {
 }
 
 .textbox {
- width: 70%;
+ width: 65%;
  margin-bottom: 15px;
 }
 
@@ -261,6 +272,7 @@ input {
 .solid-line {
   margin-left: 24px;
   width: 91%;
+  margin-bottom: 25px;
 }
 
 .news-format {
@@ -291,13 +303,13 @@ textarea {
 }
 
 .double-line {
-  width: 56%;
+  width: 55%;
   margin-left: 224px;
 }
 
 
 .solid-line {
-  width: 84.5%;
+  width: 83%;
 }
 
 .textbox {
@@ -306,7 +318,7 @@ textarea {
 
 select {
   margin-right: 50px;
-  width: 71.75%;
+  width: 67%;
 }
 
 .html-news {
@@ -322,11 +334,11 @@ select {
 }
 
 textarea {
-  width: 87%;
+  width: 85.75%;
 }
 
 button {
-  width: 84.5%;
+  width: 83.5%;
 }
 
 .copyright {
@@ -352,12 +364,17 @@ button {
 
   .textbox {
     margin-right: 270px;
-    width: 50%;
+    width: 47%;
   }
 
   select {
-    margin-right: 270px;
-    width: 51.5%;
+    margin-right: 280px;
+    width: 48.5%;
+  }
+
+  #zip-code {
+    width: 15%;
+    margin-left: 70px;
   }
 
  .solid-line {
