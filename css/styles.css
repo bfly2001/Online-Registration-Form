@@ -31,9 +31,9 @@ h2 {
 
 .intro-text {
  text-align: center;
- margin-left: 15px;
- margin-right: 15px;
  margin-top: 0px;
+ margin-right: 20px;
+ margin-left: 0px;
 }
 
 main {
@@ -43,7 +43,7 @@ main {
 .wrapper {
   margin-left: 7%;
   margin-right: 7%;
-  width: 100%;
+  width: 90%;
 }
 
 form {
@@ -103,14 +103,14 @@ width: 100%;
 
 input {
  background-color: lightgray;
- width: 84%;
+ width: 96.5%;
 }
 
 select {
  padding-right: 95px;
  padding-left: 0px;
  background-color: lightgray;
- width: 87%;
+ width: 100%;
  height: 35px;
  text-align: left;
  border-radius: 2px;
@@ -138,7 +138,7 @@ select {
 
 textarea {
  background-color: lightgray;
- width: 89%;
+ width: 98%;
  padding-bottom: 20px;
  padding-top: 20px;
 }
@@ -152,17 +152,15 @@ textarea:focus {
 }
 
 .double-line {
-  width: 90%;
+  width: 100%;
   border-style: double;
   border-top-width: 1px;
   border-bottom-width: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-bottom: 15px;
 }
 
 .solid-line {
-  width: 86%;
+  width: 99%;
   border-style: solid;
   margin-bottom: 15px;
   margin-left: 0px;
@@ -170,7 +168,7 @@ textarea:focus {
 }
 
 button {
- width: 91%;
+ width: 100%;
  color: white;
  background-color: teal;
  border-radius: 5px;
@@ -181,7 +179,7 @@ button {
 
 .copyright {
  text-align: center;
- width: 100%;
+ width: 90%;
  font-style: italic;
 }
 
@@ -189,23 +187,19 @@ button {
 
 .intro-text {
   font-size: 15px;
-  margin-left: 0;
+  width: 96%;
 }
 
 .wrapper {
-  margin-left: 150px;
-  margin-right: 150px;
+  max-width: 422px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .double-line {
-  margin-left: 175px;
-  width: 55.5%;
+  margin-left: 0px;
+  max-width: 400px;
   margin-bottom: 25px;
-}
-
-hr {
- margin-left: 180px;
- margin-right: 170px;
 }
 
 br {
@@ -213,210 +207,72 @@ br {
 }
 
 legend {
-  margin-left: 7px;
   font-size: 20px;
 }
 
 #full-name {
-  margin-left: 60px;
+  margin-left: 15%;
 }
 
 #email {
-  margin-left: 90px;
+  margin-left: 22%;
 }
 
 #phone-number {
-  margin-left: 30px;
+  margin-left: 8%;
 }
 
 #street-address {
-  margin-left: 28px;
+  margin-left: 8%;
 }
 
 #city {
-  margin-left: 99px;
+  margin-left: 25%;
 }
 
 #state {
-  margin-left: 87px;
+  margin-left: 22%;
 }
 
 select {
-  width: 68%;
+  width: 63%;
   margin-bottom: 15px;
+  margin-right: 5%;
 }
 
 #zip-code {
-  margin-left: 68px;
+  margin-left: 17.5%;
   width: 25%;
 }
 
-input {
- margin-left: 25px;
- margin-right: 150px;
-}
-
 .textbox {
- width: 65%;
+ width: 60%;
  margin-bottom: 15px;
-}
-
-.box {
-  margin-right: 0px;
-  margin-left: 10px;
-}
-
-.intro-text {
- text-align: center;
- width: 100%;
-}
-
-.select-news {
-  margin-left: 12px;
+ margin-right: 5%;
 }
 
 .html-news {
-  margin-right: 300px;
+  margin-right: 315px;
 }
 
 .css-news {
-  margin-right: 310px;
+  margin-right: 315px;
 }
 
 .solid-line {
-  margin-left: 24px;
-  width: 91%;
+  width: 99%;
   margin-bottom: 25px;
 }
 
-.news-format {
-  margin-left: 12px;
-}
-
-.other-topics {
-  margin-left: 12px;
-}
-
 .html-format {
-margin-right: 335px;
+margin-right: 80%;
 }
 
 button {
-  width: 90.5%;
+  width: 98.5%;
 }
 
 textarea {
-  width: 94.5%;
+  width: 98%;
 }
-}
-
-@media only screen and (min-width: 1024px) {
-
-.wrapper {
-  margin-left: 200px;
-}
-
-.double-line {
-  width: 55%;
-  margin-left: 224px;
-}
-
-
-.solid-line {
-  width: 83%;
-}
-
-.textbox {
-  margin-right: 60px;
-}
-
-select {
-  margin-right: 50px;
-  width: 67%;
-}
-
-.html-news {
-  margin-right: 500px;
-}
-
-.css-news {
-  margin-right: 500px;
-}
-
-.html-format {
-  margin-right: 530px;
-}
-
-textarea {
-  width: 85.75%;
-}
-
-button {
-  width: 83.5%;
-}
-
-.copyright {
-  width: 93%;
-}
-
-}
-
-@media only screen and (min-width: 1440px) {
-
- .double-line {
-   width: 38%;
-   margin-left: 424px;
- }
-
- .wrapper {
-   margin-left: 400px;
- }
-
- legend {
-   margin-left: 6px;
- }
-
-  .textbox {
-    margin-right: 270px;
-    width: 47%;
-  }
-
-  select {
-    margin-right: 280px;
-    width: 48.5%;
-  }
-
-  #zip-code {
-    width: 15%;
-    margin-left: 70px;
-  }
-
- .solid-line {
-   width: 61.5%;
- }
-
-  .html-news {
-    margin-right: 700px;
-  }
-
-  .css-news {
-    margin-right: 700px;
-  }
-
-  .html-format {
-    margin-right: 730px;
-    margin-left: 10px;
-  }
-
-  textarea {
-    width: 63%;
-  }
-
-  button {
-    width: 62%;
-  }
-
-  .copyright {
-    width: 68%;
-  }
 }
